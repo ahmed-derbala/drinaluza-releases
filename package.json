@@ -1,0 +1,18 @@
+{
+  "name": "drinaluza-releases",
+  "version": "1.66.0",
+  "description": "drinaluza, businesses manager platform",
+  "author": "Ahmed Derbala <derbala.ahmed531992@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmed-derbala/drinaluza-releases"
+  },
+  "keywords": [
+    "drinaluza",
+    "drinaluza-releases",
+    "drinaluza releases"
+  ],
+  "scripts": {
+    "ver": "npm version patch --no-git-tag-version"
+  }
+}
