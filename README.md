@@ -1,6 +1,16 @@
 # Drinaluza Releases 🚀
 
-This repository serves as the public distribution channel for the **Drinaluza** mobile application binaries (APK). The core source code of the application is maintained securely in a private repository, while production-ready builds are published here for easy access, installation, and automated updates.
+This repository serves as the public distribution channel for the **drinaluza** platform binaries (APK). The core source code of the application is maintained securely in a private repository, while production-ready builds are published here for easy access, installation, and automated updates.
+
+---
+
+## 📥 Download Latest APK
+
+👉 **[Download Latest Drinaluza APK](https://github.com/ahmed-derbala/drinaluza-releases/releases/latest)**
+
+[![Web App Vercel](https://img.shields.io/badge/Web_App-Vercel-000000?style=for-the-badge&logo=vercel)](https://drinaluza.vercel.app/)
+
+[![Web App Netlify](https://img.shields.io/badge/Web_App-Netlify-00C7B7?style=for-the-badge&logo=netlify)](https://drinaluza.netlify.app/)
 
 ---
 
@@ -30,18 +40,6 @@ This repository serves as the public distribution channel for the **Drinaluza** 
   <img src="docs/screenshots/10.jpeg"  width="260" style="margin: 10px" />
 </p>
 <!-- SCREENSHOTS_END -->
-
----
-
-## 📥 Download Latest APK
-
-You can always download the latest production version of the application directly from the GitHub Releases page:
-
-👉 **[Download Latest Drinaluza APK](https://github.com/ahmed-derbala/drinaluza-releases/releases/latest)**
-
-[![Web App Vercel](https://img.shields.io/badge/Web_App-Vercel-000000?style=for-the-badge&logo=vercel)](https://drinaluza.vercel.app/)
-
-[![Web App Netlify](https://img.shields.io/badge/Web_App-Netlify-00C7B7?style=for-the-badge&logo=netlify)](https://drinaluza.netlify.app/)
 
 ---
 

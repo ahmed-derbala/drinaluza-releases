@@ -1,3 +1,16 @@
+## [1.70.2] - 22 september 2026
+
+### Changed
+- Pointed the release scripts (APK publishing and changelog sync) back to the drinaluza-releases repository.
+
+### Removed
+- Removed the ESLint setup (config file, dev dependencies, and global install reference).
+
+## [1.70.1] - 22 september 2026
+
+### Changed
+- Switched the app config to the production flavor (production name, icon, Android package, link scheme, and NODE_ENV).
+
 ## [1.69.0] - 22 september 2026
 
 ### Added

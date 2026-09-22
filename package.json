@@ -1,7 +1,7 @@
 {
   "name": "drinaluza-releases",
-  "version": "1.70.0",
-  "description": "drinaluza, businesses manager platform",
+  "version": "1.70.2",
+  "description": "drinaluza, small businesses manager platform (binary releases)",
   "author": "Ahmed Derbala <derbala.ahmed531992@gmail.com>",
   "repository": {
     "type": "git",
@@ -10,7 +10,8 @@
   "keywords": [
     "drinaluza",
     "drinaluza-releases",
-    "drinaluza releases"
+    "drinaluza releases",
+    "drinaluza android apk"
   ],
   "scripts": {
     "ver": "npm version patch --no-git-tag-version"
