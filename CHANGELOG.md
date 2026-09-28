@@ -1,3 +1,14 @@
+## [1.75.0] - 28 september 2026
+
+### Added
+- Added changelog viewer to the latest release card (IconBaseButton opening a BaseModal with markdown release notes and a cancel button).
+- Added plus-button chooser in MediaCard to add a file by uploading or pasting a URL.
+
+### Changed
+- Renamed IconTextBaseButton to TextIconBaseButton across the app.
+- Push notification project ID is now read from config instead of app.json extras.
+- Piped the GitHub release body through the update check as the changelog source.
+
 ## [1.74.1] - 28 september 2026
 
 ### Added
