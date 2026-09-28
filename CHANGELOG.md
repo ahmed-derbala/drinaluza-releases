@@ -1,3 +1,19 @@
+## [1.74.1] - 28 september 2026
+
+### Added
+- Added preset picker modal (searchable bottom sheet) for product creation.
+- Added MediaCard to manage product thumbnail and gallery (upload a file or paste a URL, copy URL, remove, fullscreen preview).
+
+### Changed
+- Renamed default product to preset across the app (types, API endpoints, UI labels) to match the backend.
+- Unified the thumbnail and gallery blocks in MediaCard with the same tile UI; thumbnail is always one file, gallery holds many.
+- Moved MediaCard to the shared core cards folder.
+- Pasted file URLs are no longer assigned or sent with a client-generated `_id`.
+- Thumbnail preview in MediaCard is now compact instead of full-width.
+
+### Fixed
+- Fixed the preset picker list scrolling inside the bottom sheet.
+
 ## [1.70.2] - 22 september 2026
 
 ### Changed

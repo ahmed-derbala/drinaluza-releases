@@ -1,10 +1,9 @@
 # drinaluza Releases 🚀
-
-This repository serves as the public distribution channel for the **drinaluza** platform binaries (APK).
+- From Sea to Shore, Managed.
+- This repository serves as the public distribution channel for the **drinaluza** platform binaries (APK).
 
 ---
-[![Android APK](https://img.shields.io/badge/Download-Android_App-3DDC84?style=for-the-badge&logo=android)](https://github.com/ahmed-derbala/drinaluza-releases/releases/latest)
-[website](https://drinaluza.com/)
+[drinaluza.com](https://drinaluza.com/)
 ---
 
 ## 🎬 App Demo
@@ -48,10 +47,10 @@ This repository serves as the public distribution channel for the **drinaluza** 
 
 ## Tech used
 versions are always latest LTS
-frontend: expo, typescript
-backend: express.js, javascript
-database: mongodb
-development tools: linux mint debian edition LMDE, devin, antigravity, opencode, vscode, codium, postman
+- frontend: expo, typescript
+- backend: express.js, javascript
+- database: mongodb
+- development tools: linux mint debian edition LMDE, devin, antigravity, opencode, vscode, codium, postman
 
 ---
 
