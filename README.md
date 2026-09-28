@@ -36,8 +36,18 @@ This repository serves as the public distribution channel for the **drinaluza** 
 
 ---
 
+## Top features:
+- easy account creation
+- buy and sell seafood products and maritime equipements
+- rent jet ski, boat trip and coastal houses
+- weather tailored for swimming and fishing
+- fishermen crew management
+- track boats and talk to them with or without internet
+
+---
+
 ## Tech used
-versions always latest LTS
+versions are always latest LTS
 frontend: expo, typescript
 backend: express.js, javascript
 database: mongodb
