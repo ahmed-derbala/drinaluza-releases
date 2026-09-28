@@ -4,8 +4,7 @@ This repository serves as the public distribution channel for the **drinaluza** 
 
 ---
 [![Android APK](https://img.shields.io/badge/Download-Android_App-3DDC84?style=for-the-badge&logo=android)](https://github.com/ahmed-derbala/drinaluza-releases/releases/latest)
-[![Netlify](https://img.shields.io/badge/Web_App-Netlify-00C7B7?style=for-the-badge&logo=netlify)](https://drinaluza.netlify.app/)
-[![Vercel](https://img.shields.io/badge/Web_App-Vercel-000000?style=for-the-badge&logo=vercel)](https://drinaluza.vercel.app/)
+[website](https://drinaluza.com/)
 ---
 
 ## 🎬 App Demo
@@ -37,17 +36,19 @@ This repository serves as the public distribution channel for the **drinaluza** 
 
 ---
 
-## 👨‍💻 Social Media
+## Tech used
+versions always latest LTS
+frontend: expo, typescript
+backend: express.js, javascript
+database: mongodb
+development tools: linux mint debian edition LMDE, devin, antigravity, opencode, vscode, codium, postman
 
-**Drinaluza**
+---
+
+## 👨‍💻 Social Media
 
 🔗 [Facebook](https://www.facebook.com/drinaluza)
 🔗 [Tiktok](https://www.tiktok.com/@drinaluza)
----
-
-## Deployment Status
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8d6a2d9a-d7a3-431c-b84e-5d33937e8fb7/deploy-status)](https://app.netlify.com/projects/drinaluza/deploys)
 
 ---
 
@@ -56,3 +57,11 @@ This repository serves as the public distribution channel for the **drinaluza** 
 **Ahmed Derbala**
 
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/ahmed-derbala/)
+🔗 [LinkedIn Company Page](https://www.linkedin.com/company/drinaluza/)
+
+---
+
+## Deployment Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8d6a2d9a-d7a3-431c-b84e-5d33937e8fb7/deploy-status)](https://app.netlify.com/projects/drinaluza/deploys)
+
