@@ -1,3 +1,19 @@
+## [1.79.0] - 9 october 2026
+
+### Added
+- Added background auto-update on Android startup gated by connection type: downloads in background and launches installation on finish when auto-update on wifi (default on) or mobile data (default off) is enabled, without navigating.
+- Added navigation to the updates screen on startup when an update is available to download but auto-update is disabled for the current connection.
+- Added automatic installer launch on startup when an update is already downloaded and ready to install.
+- Added background resume of paused update downloads on startup when auto-update allows it, including when the remote check fails.
+
+### Changed
+- Replaced @react-native-community/netinfo with expo-network for reading the connection type.
+- downloadUpdate and resumeDownload now accept an explicit release and a silent option so background flows do not depend on state closures or show storage alerts.
+
+### Fixed
+- Fixed startup auto-update never downloading because downloadUpdate read a stale latestRelease right after checkForUpdates.
+- Removed the stale users route entry that caused a no-route warning in the root layout.
+
 ## [1.75.0] - 28 september 2026
 
 ### Added
