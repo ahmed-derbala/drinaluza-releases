@@ -1,3 +1,38 @@
+## [1.80.2] - 15 october 2026
+
+### Added
+- Photos and videos you have already viewed now open instantly without downloading again.
+
+### Changed
+- When creating a product, the main photo is now automatically the first gallery photo and vice versa.
+- Update settings and cached data details moved from the Settings screen to the Updates screen.
+- The install button is now disabled for installer files older than the installed app.
+
+## [1.80.1] - 13 october 2026
+
+### Added
+- Added a Web Settings section with an option to reload the whole page when you press the refresh button (enabled by default, works on every screen of the web version).
+
+### Changed
+- The language buttons in the changelog viewer now show flags and moved to the bottom next to the close button.
+- The Tunisian Arabic changelog now reads right-to-left.
+
+### Fixed
+- Fixed the app failing to build and open on Android.
+
+## [1.80.0] - 12 october 2026
+
+### Added
+- Product cards in the feed now have a share button that shares the product link (on the web version it copies the link for you).
+
+### Changed
+- Confirmations (reset app, remove account, cancel order) now appear as windows inside the app, and small notices appear as floating messages instead of popups.
+- The server info card now lists users as visitors and connected instead of technical names, and is fully translated.
+- Sharing an installer file starts right away without the extra advice screen.
+
+### Fixed
+- Fixed uneven spacing between the rows of the server info card.
+
 ## [1.79.4] - 12 october 2026
 
 ### Added
