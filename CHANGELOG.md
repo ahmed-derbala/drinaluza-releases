@@ -1,3 +1,9 @@
+## [1.80.8] - 15 october 2026
+
+### Fixed
+- Fixed the focused feed card changing rapidly while scrolling.
+- The focused card now follows your mouse on web and stays on the centered card on mobile.
+
 ## [1.80.6] - 15 october 2026
 
 ### Added
@@ -81,16 +87,3 @@
 - Fixed missing gaps between the cards in the business request form.
 - Removed the example texts inside the contact fields and the business link field.
 - Business request, name, contact, preferred contact and purchases settings now appear in your language (english, tunisian latin, arabic).
-
-## [1.79.3] - 11 october 2026
-
-### Enhanced
-- Prices now display cleanly without extra zeros (5 instead of 5.00) everywhere: product cards, cart and checkout.
-- The quantity stepper now shows the unit next to the amount (for example 1 kg).
-- Product photos now fill the whole feed card, and photo thumbnails are always visible.
-- Feed cards show the product category below the product name.
-
-### Fixed
-- Fixed the quantity stepper starting from a wrong tiny amount when the minimum is fractional (for example 0.01 instead of 0.1).
-- Fixed the total price being wrong as a result of the wrong starting quantity.
-- Fixed a black strip appearing at the bottom of feed cards on the web version.
