@@ -1,3 +1,9 @@
+## [1.80.5] - 15 october 2026
+
+### Fixed
+- Fixed feed cards stuck on spinner after scrolling away while photos were still downloading.
+- Fixed web feed cards losing their photos when not focused.
+
 ## [1.80.4] - 15 october 2026
 
 ### Added
@@ -83,15 +89,3 @@
 - Fixed the quantity stepper starting from a wrong tiny amount when the minimum is fractional (for example 0.01 instead of 0.1).
 - Fixed the total price being wrong as a result of the wrong starting quantity.
 - Fixed a black strip appearing at the bottom of feed cards on the web version.
-
-### Added
-- The price input now accepts up to 6 digits before the dot and 3 digits after it.
-
-## [1.79.0] - 9 october 2026
-
-### Added
-- The app now downloads updates automatically in the background on wifi or mobile data (depending on your settings) and opens installation when finished.
-- When automatic download is off, the app opens the updates screen when a new version is available.
-
-### Fixed
-- Fixed automatic update download not starting on app launch.
