@@ -1,3 +1,25 @@
+## [1.80.4] - 15 october 2026
+
+### Added
+- Added photo prefetch options in Media Settings: download feed photos in advance on Wi-Fi (on by default) or mobile data (off by default).
+
+### Changed
+- Videos now download once and replay instantly, even offline (first play waits for the download).
+
+### Fixed
+- Fixed feed photos and videos flickering or showing a spinner when switching between cards.
+
+## [1.80.3] - 15 october 2026
+
+### Added
+- Added a YouTube link to the About screen.
+
+### Changed
+- Product names in the feed now appear with their category below them.
+
+### Fixed
+- Fixed some feed photos appearing blank until their card is focused.
+
 ## [1.80.2] - 15 october 2026
 
 ### Added
@@ -73,13 +95,3 @@
 
 ### Fixed
 - Fixed automatic update download not starting on app launch.
-
-## [1.75.0] - 28 september 2026
-
-### Added
-- Added a changelog viewer to the latest release card.
-- Added a plus-button chooser to add a file by uploading or pasting a URL.
-
-### Changed
-- Renamed IconTextBaseButton to TextIconBaseButton across the app.
-- Push notification project ID is now read from config instead of app.json extras.
