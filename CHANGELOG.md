@@ -1,3 +1,8 @@
+## [1.80.6] - 15 october 2026
+
+### Added
+- The feed now loads the next page in advance, so scrolling never waits at the end of the list.
+
 ## [1.80.5] - 15 october 2026
 
 ### Fixed
