@@ -1,3 +1,10 @@
+## [1.80.9] - 17 october 2026
+
+### Fixed
+- Fixed the last page of the feed not showing its cards until you reopen the screen.
+- Fixed the number of cards in the feed not matching the total count while scrolling.
+- Fixed the feed loading twice in a row when you open it, which wasted data.
+
 ## [1.80.8] - 15 october 2026
 
 ### Fixed
