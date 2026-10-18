@@ -1,5 +1,9 @@
 ## [1.80.9] - 17 october 2026
 
+### Changed
+- Photos in the product gallery can now be added by uploading a file or pasting a link.
+- Photos you pick are uploaded only after the product is created, so nothing is lost if the product fails to save.
+
 ### Fixed
 - Fixed the last page of the feed not showing its cards until you reopen the screen.
 - Fixed the number of cards in the feed not matching the total count while scrolling.
