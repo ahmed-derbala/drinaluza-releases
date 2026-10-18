@@ -1,8 +1,12 @@
 ## [1.80.9] - 17 october 2026
 
 ### Changed
+- The business page now shows a business card on top, then the products of the business with the same product cards you see in the feed.
+- You can now share a business page directly from its header, next to the QR code.
 - Photos in the product gallery can now be added by uploading a file or pasting a link.
 - Photos you pick are uploaded only after the product is created, so nothing is lost if the product fails to save.
+- The photos of an existing product are now view only: adding and removing them from the product screen is not available for now.
+- The product page no longer shows the stock, category, availability and price cards for now.
 
 ### Fixed
 - Fixed the last page of the feed not showing its cards until you reopen the screen.
@@ -82,19 +86,3 @@
 
 ### Fixed
 - Fixed uneven spacing between the rows of the server info card.
-
-## [1.79.4] - 12 october 2026
-
-### Added
-- When requesting a business account, you now choose your own short link (shown as drinaluza.com/b/your-link). Only english letters, numbers and "-" are allowed.
-- Added a Purchases section in Settings with a purchase confirmation switch, right after Media Settings.
-
-### Changed
-- In the business request form, the link field now comes first and the business name is optional.
-- The purchase confirmation switch moved from your Profile to Settings and is now saved on your device.
-- The server info card now shows the environment (for example production) as a small badge in the top right, with the app name and version as a regular row.
-
-### Fixed
-- Fixed missing gaps between the cards in the business request form.
-- Removed the example texts inside the contact fields and the business link field.
-- Business request, name, contact, preferred contact and purchases settings now appear in your language (english, tunisian latin, arabic).
