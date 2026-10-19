@@ -1,9 +1,12 @@
 ## [1.82.1] - 19 october 2026
 
 ### New
+- On Android and on the web version, the updates screen now shows a storage card: the size of the cache and documents folders with their clear buttons on Android, and the number of storage and secure-storage keys on both.
 - A new Backend Settings card in the settings screen lets you choose how many items each page loads.
 - The feed, search, sales, notifications and products lists now load as many items per page as you chose.
 - The feed, products, notifications and sales lists now keep all loaded pages available offline.
+- Every list now can show its already loaded pages instantly, even after closing the screen, and refreshes them from the backend when it is reachable.
+- Lists no longer ask the backend for anything while it is offline; cached pages are shown instead.
 - The dashboards (businesses, super businesses, business products) follow the same page size.
 - The businesses list, the categories list, your own businesses and your purchases now send the page size you chose instead of a fixed one.
 - The business page now shows a business card on top, then the products of the business with the same product cards you see in the feed.
@@ -21,7 +24,7 @@
 - Fixed a business page showing only the first 10 products of a business.
 
 ### Deprecated
-- The QR code display is removed from the app.
+- The Reset App card is removed from the settings screen.
 - The QR code scanner is removed from the feed.
 
 ## [1.80.8] - 15 october 2026
