@@ -15,6 +15,7 @@
 - The product page no longer shows the stock, category, availability and price cards for now.
 
 ### Fixed
+- Fixed the business page's product strip stopping after the first page when scrolling sideways.
 - Fixed the last page of the feed not showing its cards until you reopen the screen.
 - Fixed the number of cards in the feed not matching the total count while scrolling.
 - Fixed the feed loading twice in a row when you open it, which wasted data.
@@ -85,15 +86,4 @@
 ### Fixed
 - Fixed the app failing to build and open on Android.
 
-## [1.80.0] - 12 october 2026
 
-### Added
-- Product cards in the feed now have a share button that shares the product link (on the web version it copies the link for you).
-
-### Changed
-- Confirmations (reset app, remove account, cancel order) now appear as windows inside the app, and small notices appear as floating messages instead of popups.
-- The server info card now lists users as visitors and connected instead of technical names, and is fully translated.
-- Sharing an installer file starts right away without the extra advice screen.
-
-### Fixed
-- Fixed uneven spacing between the rows of the server info card.
