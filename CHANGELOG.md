@@ -1,6 +1,9 @@
 ## [1.82.1] - 19 october 2026
 
 ### New
+
+- Tunisian Arabic is now the default app and content language.
+- A language card in the settings screen lets you change the app language and the content language; it is saved to your account when connected.
 - On Android and on the web version, the updates screen now shows a storage card: the size of the cache and documents folders with their clear buttons on Android, and the number of storage and secure-storage keys on both.
 - A new Backend Settings card in the settings screen lets you choose how many items each page loads.
 - The feed, search, sales, notifications and products lists now load as many items per page as you chose.
@@ -17,6 +20,8 @@
 - The product page no longer shows the stock, category, availability and price cards for now.
 
 ### Fixed
+
+- The app language now applies instantly across the whole app when you switch it in the settings screen.
 - Fixed the business page's product strip stopping after the first page when scrolling sideways.
 - Fixed the last page of the feed not showing its cards until you reopen the screen.
 - Fixed the number of cards in the feed not matching the total count while scrolling.
@@ -24,54 +29,69 @@
 - Fixed a business page showing only the first 10 products of a business.
 
 ### Deprecated
+
+- The app now stores less account data on your device (one snapshot instead of several copies of the same details).
+- Temporary download progress is no longer saved on your device.
+- The language picker on the sign-in screen was removed — change languages from the new card in the settings screen.
 - The Reset App card is removed from the settings screen.
 - The QR code scanner is removed from the feed.
 
 ## [1.80.8] - 15 october 2026
 
 ### Fixed
+
 - Fixed the focused feed card changing rapidly while scrolling.
 - The focused card now follows your mouse on web and stays on the centered card on mobile.
 
 ## [1.80.6] - 15 october 2026
 
 ### Added
+
 - The feed now loads the next page in advance, so scrolling never waits at the end of the list.
 
 ## [1.80.5] - 15 october 2026
 
 ### Fixed
+
 - Fixed feed cards stuck on spinner after scrolling away while photos were still downloading.
 - Fixed web feed cards losing their photos when not focused.
 
 ## [1.80.4] - 15 october 2026
 
 ### Added
+
 - Added photo prefetch options in Media Settings: download feed photos in advance on Wi-Fi (on by default) or mobile data (off by default).
 
 ### Changed
+
 - Videos now download once and replay instantly, even offline (first play waits for the download).
 
 ### Fixed
+
 - Fixed feed photos and videos flickering or showing a spinner when switching between cards.
 
 ## [1.80.3] - 15 october 2026
 
 ### Added
+
 - Added a YouTube link to the About screen.
 
 ### Changed
+
 - Product names in the feed now appear with their category below them.
 
 ### Fixed
+
 - Fixed some feed photos appearing blank until their card is focused.
 
 ## [1.80.2] - 15 october 2026
 
 ### Added
+
 - Photos and videos you have already viewed now open instantly without downloading again.
 
 ### Changed
+
 - When creating a product, the main photo is now automatically the first gallery photo and vice versa.
 - Update settings and cached data details moved from the Settings screen to the Updates screen.
 - The install button is now disabled for installer files older than the installed app.
@@ -79,13 +99,14 @@
 ## [1.80.1] - 13 october 2026
 
 ### Added
+
 - Added a Web Settings section with an option to reload the whole page when you press the refresh button (enabled by default, works on every screen of the web version).
 
 ### Changed
+
 - The language buttons in the changelog viewer now show flags and moved to the bottom next to the close button.
 - The Tunisian Arabic changelog now reads right-to-left.
 
 ### Fixed
+
 - Fixed the app failing to build and open on Android.
-
-
