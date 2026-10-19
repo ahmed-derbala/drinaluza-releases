@@ -1,12 +1,11 @@
 ## [1.82.1] - 19 october 2026
 
-### Added
-- A new Backend Settings card in the settings screen lets you choose how many items each page loads, from 10 to 100.
+### New
+- A new Backend Settings card in the settings screen lets you choose how many items each page loads.
 - The feed, search, sales, notifications and products lists now load as many items per page as you chose.
+- The feed, products, notifications and sales lists now keep all loaded pages available offline.
 - The dashboards (businesses, super businesses, business products) follow the same page size.
 - The businesses list, the categories list, your own businesses and your purchases now send the page size you chose instead of a fixed one.
-
-### Changed
 - The business page now shows a business card on top, then the products of the business with the same product cards you see in the feed.
 - You can now share a business page directly from its header.
 - Photos in the product gallery can now be added by uploading a file or pasting a link.
@@ -21,7 +20,7 @@
 - Fixed the feed loading twice in a row when you open it, which wasted data.
 - Fixed a business page showing only the first 10 products of a business.
 
-### Removed
+### Deprecated
 - The QR code display is removed from the app.
 - The QR code scanner is removed from the feed.
 
