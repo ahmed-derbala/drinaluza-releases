@@ -18,6 +18,7 @@
 - Photos you pick are uploaded only after the product is created, so nothing is lost if the product fails to save.
 - The photos of an existing product are now view only: adding and removing them from the product screen is not available for now.
 - The product page no longer shows the stock, category, availability and price cards for now.
+- The price fields on the create and edit product screens now accept the price in millimes, with a maximum of 9 digits.
 
 ### Fixed
 
