@@ -1,3 +1,14 @@
+## [1.86.0] - 21 october 2026
+
+### New
+
+- The category picker now loads as many items per page as you chose and fetches more pages while you scroll.
+
+### Deprecated
+
+- The search box was removed from the category picker: categories are listed page by page with the page size you chose.
+- The Basic Information card was removed from the profile screen.
+
 ## [1.85.0] - 20 october 2026
 
 ### New
