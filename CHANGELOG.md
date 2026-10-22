@@ -1,13 +1,21 @@
-## [1.86.0] - 21 october 2026
+## [1.88.0] - 22 october 2026
 
 ### New
 
 - The category picker now loads as many items per page as you chose and fetches more pages while you scroll.
+- Lists now fit as many product and business cards on screen as they can be properly displayed: each card keeps a minimum readable width while the number of columns grows with the screen, so more cards are visible on phones (two columns instead of one) and on wide screens.
+- Sales and purchases lists now follow the same card-density rule: order cards keep their minimum readable width while more of them fit per row on larger screens.
+- Cards, lists and menus now follow one shared screen-size rule: everything switches to its compact layout at the same screen width and reacts together when you rotate the device, so content no longer gets cut off on small screens.
+- On phones, the last cards of the businesses list and some stacked pages no longer sit behind the system navigation bar at the bottom of the screen.
+- Big screens now show more content instead of bigger content: dashboard cards, notifications and your businesses lists spread over several columns while every card keeps its readable size, and business and personal dashboards keep their content within a comfortable width instead of stretching edge to edge.
+- The feed, products, businesses, search, notifications and dashboard product lists now show every card of a row on wide screens: each card keeps its own place instead of pushing the other cards out of the screen.
+- On tablets, desktop windows and other wide screens, cards no longer shrink into their compact layout: the available width becomes fewer, larger cards that are easy to read, while phones keep their two compact columns.
 
 ### Deprecated
 
 - The search box was removed from the category picker: categories are listed page by page with the page size you chose.
 - The Basic Information card was removed from the profile screen.
+- The Social Media card was removed from the profile screen.
 
 ## [1.85.0] - 20 october 2026
 
