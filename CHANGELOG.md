@@ -1,6 +1,13 @@
-## [1.88.0] - 22 october 2026
+## [1.90.0] - 23 october 2026
 
-### New
+- The updates screen now shows the app environment on the current release card, so you can tell at a glance whether you are using the development, staging or production version.
+- Buttons now keep the same shape and colours everywhere in the app. Screens and cards can no longer change how a button looks, so actions such as sharing, editing or deleting stay easy to recognise.
+- Contact buttons for phone, email, website, WhatsApp, Messenger, Instagram and directions now follow the same outlined style as the rest of the app.
+- The Messenger contact button now shows the Facebook Messenger logo.
+- The environment subtitle was removed from the updates screen header; the environment is now shown on the current release card instead.
+- The free-space badge was removed from the Android release card. The app still checks available storage before downloading an update.
+
+## [1.88.0] - 22 october 2026
 
 - The category picker now loads as many items per page as you chose and fetches more pages while you scroll.
 - Lists now fit cards to the screen instead of squeezing them: each card keeps a minimum readable width, complex product and business cards take one full-width column on phones, and extra columns appear only on tablets and wider screens where every card still fits comfortably.
@@ -10,16 +17,11 @@
 - Big screens now show more content instead of bigger content: dashboard cards, notifications and your businesses lists spread over several columns while every card keeps its readable size, and business and personal dashboards keep their content within a comfortable width instead of stretching edge to edge.
 - The feed, products, businesses, search, notifications and dashboard product lists now show every card of a row on wide screens: each card keeps its own place instead of pushing the other cards out of the screen.
 - On tablets, desktop windows and other wide screens, cards are laid out at their comfortable size: the available width becomes multiple readable cards, while phones show complex cards in a single full-width column.
-
-### Deprecated
-
 - The search box was removed from the category picker: categories are listed page by page with the page size you chose.
 - The Basic Information card was removed from the profile screen.
 - The Social Media card was removed from the profile screen.
 
 ## [1.85.0] - 20 october 2026
-
-### New
 
 - Tunisian Arabic is now the default app and content language.
 - A language card in the settings screen lets you change the app language and the content language; your choice is kept on this device.
@@ -38,47 +40,15 @@
 - The photos of an existing product are now view only: adding and removing them from the product screen is not available for now.
 - The product page no longer shows the stock, category, availability and price cards for now.
 - The price fields on the create and edit product screens now accept the price in millimes, with a maximum of 9 digits.
-
-### Fixed
-
 - The app language now applies instantly across the whole app when you switch it in the settings screen, without reloading screens or lists.
 - Fixed the business page's product strip stopping after the first page when scrolling sideways.
 - Fixed the last page of the feed not showing its cards until you reopen the screen.
 - Fixed the number of cards in the feed not matching the total count while scrolling.
 - Fixed the feed loading twice in a row when you open it, which wasted data.
 - Fixed a business page showing only the first 10 products of a business.
-
-### Deprecated
-
 - The app now stores less account data on your device (one snapshot instead of several copies of the same details).
 - Temporary download progress is no longer saved on your device.
 - Language and currency are no longer part of your account: languages are saved on this device and prices are shown in Tunisian dinar.
 - The language picker on the sign-in screen was removed — change languages from the new card in the settings screen.
 - The Reset App card is removed from the settings screen.
 - The QR code scanner is removed from the feed.
-
-## [1.80.0] - 15 october 2026
-
-### New
-
-- The feed now loads the next page in advance, so scrolling never waits at the end of the list.
-- Added photo prefetch options in Media Settings: download feed photos in advance on Wi-Fi (on by default) or mobile data (off by default).
-- Videos now download once and replay instantly, even offline (first play waits for the download).
-- Photos and videos you have already viewed now open instantly without downloading again.
-- Added a YouTube link to the About screen.
-- Product names in the feed now appear with their category below them.
-- When creating a product, the main photo is now automatically the first gallery photo and vice versa.
-- Update settings and cached data details moved from the Settings screen to the Updates screen.
-- The install button is now disabled for installer files older than the installed app.
-- Added a Web Settings section with an option to reload the whole page when you press the refresh button (enabled by default, works on every screen of the web version).
-- The language buttons in the changelog viewer now show flags and moved to the bottom next to the close button.
-- The Tunisian Arabic changelog now reads right-to-left.
-
-### Fixed
-
-- The focused feed card no longer changes rapidly while scrolling: it follows your mouse on web and stays on the centered card on mobile.
-- Fixed feed cards stuck on spinner after scrolling away while photos were still downloading.
-- Fixed web feed cards losing their photos when not focused.
-- Fixed feed photos and videos flickering or showing a spinner when switching between cards.
-- Fixed some feed photos appearing blank until their card is focused.
-- Fixed the app failing to build and open on Android.
