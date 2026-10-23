@@ -1,3 +1,10 @@
+## [1.91.0] - 23 october 2026
+
+- Saved data now stays on your device until fresh data arrives from the backend, so lists, pages, profiles and dashboards open instantly instead of being downloaded again.
+- The app no longer treats saved data as out of date after a few minutes: screens keep working offline even days after you last opened them.
+- Photos and videos are downloaded once and then reused from the device, and the clear button on the storage card removes every saved photo and video in one go.
+- When the backend is reachable, saved data is still refreshed in the background so what you see stays up to date.
+
 ## [1.90.0] - 23 october 2026
 
 - The updates screen now shows the app environment on the current release card, so you can tell at a glance whether you are using the development, staging or production version.
@@ -5,7 +12,7 @@
 - Contact buttons for phone, email, website, WhatsApp, Messenger, Instagram and directions now follow the same outlined style as the rest of the app.
 - The Messenger contact button now shows the Facebook Messenger logo.
 - The environment subtitle was removed from the updates screen header; the environment is now shown on the current release card instead.
-- The free-space badge was removed from the Android release card. The app still checks available storage before downloading an update.
+- The free-space badge was removed from the Android release card, and the app no longer checks available storage before downloading an update.
 
 ## [1.88.0] - 22 october 2026
 
