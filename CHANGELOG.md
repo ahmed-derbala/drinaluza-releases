@@ -1,9 +1,11 @@
-## [1.91.0] - 23 october 2026
+## [1.91.0] - 27 october 2026
 
 - Saved data now stays on your device until fresh data arrives from the backend, so lists, pages, profiles and dashboards open instantly instead of being downloaded again.
 - The app no longer treats saved data as out of date after a few minutes: screens keep working offline even days after you last opened them.
-- Photos and videos are downloaded once and then reused from the device, and the clear button on the storage card removes every saved photo and video in one go.
+- Photos and videos are downloaded once and then reused from the device.
 - When the backend is reachable, saved data is still refreshed in the background so what you see stays up to date.
+- The storage card was removed from the updates screen, so storage and cache clearing is no longer available there.
+- On the web, pages no longer change size after a refresh: cards and lists now appear directly in their final layout instead of being resized a moment later.
 
 ## [1.90.0] - 23 october 2026
 
