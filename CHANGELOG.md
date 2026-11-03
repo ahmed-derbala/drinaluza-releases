@@ -1,3 +1,15 @@
+## [1.93.0] - 31 october 2026
+
+- The app now tells the backend which version and platform it runs on with every request.
+- When the backend stops accepting your app version, the app now asks you to update: on Android it opens the updates screen and starts downloading the new version when your update settings allow it, and on the web it refreshes the page. Both show a message so you know why.
+
+## [1.92.0] - 29 october 2026
+
+- Signing in now warns you when the device cannot save your session, instead of looking successful and signing you out later.
+- Signing out now clears your saved session from every place it is stored, so an old leftover copy can no longer bring a previous account back.
+- The app no longer erases your saved login when a single request fails while it was sent without a login token.
+- This update asks you to sign in again once and starts from the default preferences: your session and settings are now stored under clearer names, so the ones saved by the previous version are not reused.
+
 ## [1.91.0] - 27 october 2026
 
 - Saved data now stays on your device until fresh data arrives from the backend, so lists, pages, profiles and dashboards open instantly instead of being downloaded again.
