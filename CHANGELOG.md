@@ -1,3 +1,25 @@
+## [1.98.0] - 9 november 2026
+
+- The products list is now the home screen and opens by default when you start the app.
+- Product pages opened from the products list keep the same address and navigation as before.
+- The separate feed screen has been removed; the products tab now shows the same product cards.
+- Starring contacts is no longer required: you can leave every contact unstarred, or pick up to two public contacts to show first.
+- Feed product cards now show a separate button for every starred contact kind (up to two), so SMS, Messenger and other contacts each get their own action.
+- The action buttons on feed product cards keep the same position even when a business has no contacts or no directions available, so the layout no longer jumps between products.
+- In view mode, contact information now lists your starred contacts first, in the order you set, instead of a fixed default order.
+- Starring a contact now makes it public, so a contact you want to show first can no longer stay hidden.
+- Screens across the app now appear fully in Tunisian, in Arabic or Latin letters, instead of falling back to English.
+- Search has been removed from the app: the search screen, its button in the feed header and the search field in product lists and pickers are gone.
+- Product stock is no longer part of the app: stock quantity, minimum thresholds, low-stock indicators and the related statistics have been removed.
+- The fish icon that shows a product size on product cards is now fully visible, so it is no longer cut off at the edge.
+
+## [1.97.0] - 9 november 2026
+
+- Contact information is now easier to manage: you can add and edit phone numbers, SMS numbers, WhatsApp, Messenger, Instagram, email and website details, including extra numbers or accounts when needed.
+- You can choose 1 or 2 public contacts to show first by starring them.
+- WhatsApp, Messenger and Instagram fields now show a fixed link prefix, so you only need to enter the number or username.
+- The Messenger icon has been updated.
+
 ## [1.93.0] - 31 october 2026
 
 - The app now tells the backend which version and platform it runs on with every request.
