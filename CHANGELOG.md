@@ -1,3 +1,10 @@
+## [1.99.0] - 15 november 2026
+
+- The web version now welcomes visitors with a short message that recommends the Android app for the best experience.
+- The welcome message offers to download the latest Android app and can be dismissed for good.
+- Modal titles and subtitles now always sit at the top left, next to the icon, in every language.
+- The device now keeps only the latest downloaded update file together with a download in progress, instead of accumulating old installers.
+
 ## [1.98.0] - 14 november 2026
 
 - The products list is now the home screen and opens by default when you start the app.
