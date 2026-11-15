@@ -1,16 +1,22 @@
-## [1.98.0] - 9 november 2026
+## [1.98.0] - 14 november 2026
 
 - The products list is now the home screen and opens by default when you start the app.
 - Product pages opened from the products list keep the same address and navigation as before.
 - The separate feed screen has been removed; the products tab now shows the same product cards.
 - Starring contacts is no longer required: you can leave every contact unstarred, or pick up to two public contacts to show first.
-- Feed product cards now show a separate button for every starred contact kind (up to two), so SMS, Messenger and other contacts each get their own action.
-- The action buttons on feed product cards keep the same position even when a business has no contacts or no directions available, so the layout no longer jumps between products.
+- Product cards now show a separate button for every starred contact kind (up to two), so SMS, Messenger and other contacts each get their own action.
+- The action buttons on product cards keep the same position even when a business has no contacts or no directions available, so the layout no longer jumps between products.
+- Product cards now show the business name and address over the photo, so you see who sells the product before opening it.
+- Product cards now show only the product size; harvest, gear and origin details are on the product page, and the category label was removed.
+- The business that sells a product now appears on the product page as a full card with its photo, address, directions, share and every contact button.
+- Business cards in the businesses list now show directions and share only; contact buttons moved to the product cards.
 - In view mode, contact information now lists your starred contacts first, in the order you set, instead of a fixed default order.
 - Starring a contact now makes it public, so a contact you want to show first can no longer stay hidden.
 - Screens across the app now appear fully in Tunisian, in Arabic or Latin letters, instead of falling back to English.
 - Search has been removed from the app: the search screen, its button in the feed header and the search field in product lists and pickers are gone.
 - Product stock is no longer part of the app: stock quantity, minimum thresholds, low-stock indicators and the related statistics have been removed.
+- The weight range of a single fish is now edited in the product specifications instead of the price card.
+- The About Business description has been removed from the business edit screen.
 - The fish icon that shows a product size on product cards is now fully visible, so it is no longer cut off at the edge.
 
 ## [1.97.0] - 9 november 2026
