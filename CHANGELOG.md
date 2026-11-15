@@ -1,3 +1,10 @@
+## [1.100.0] - 15 november 2026
+
+- The app now makes sure a downloaded update is complete before opening the installer, and downloads it again when the file is damaged or incomplete.
+- If saving a downloaded update fails, the app now tells you instead of opening a file that does not exist.
+- Download speed and remaining time during an update no longer jump between values.
+- Update messages, sharing and installation errors now appear in your chosen language.
+
 ## [1.99.0] - 15 november 2026
 
 - The web version now welcomes visitors with a short message that recommends the Android app for the best experience.
