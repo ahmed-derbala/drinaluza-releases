@@ -1,3 +1,8 @@
+## [1.102.0] - 16 november 2026
+
+- Requesting a new business now opens a full screen instead of a pop-up, so the form is roomier and easier to fill on phones.
+- Business request results now appear in your chosen language.
+
 ## [1.100.0] - 15 november 2026
 
 - The app now makes sure a downloaded update is complete before opening the installer, and downloads it again when the file is damaged or incomplete.
