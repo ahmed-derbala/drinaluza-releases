@@ -1,3 +1,8 @@
+## [1.103.0] - 17 november 2026
+
+- Sharing a link to the web version on Facebook, WhatsApp, Telegram or LinkedIn now shows the app image, title and description.
+- The welcome message on the web now shows the app icon and explains the two choices next to the download and close buttons.
+
 ## [1.102.0] - 16 november 2026
 
 - Requesting a new business now opens a full screen instead of a pop-up, so the form is roomier and easier to fill on phones.
