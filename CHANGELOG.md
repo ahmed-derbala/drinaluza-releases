@@ -2,6 +2,8 @@
 
 - Sharing a link to the web version on Facebook, WhatsApp, Telegram or LinkedIn now shows the app image, title and description.
 - The welcome message on the web now shows the app icon and explains the two choices next to the download and close buttons.
+- The latest release card no longer shows a copy link button; on the web its share button copies the download link to the clipboard.
+- Choosing a language in the welcome message now applies to the whole app, including products and business names.
 
 ## [1.102.0] - 16 november 2026
 
