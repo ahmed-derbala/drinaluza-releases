@@ -1,3 +1,7 @@
+## [1.104] - 24 november 2026
+
+- The Request Business button on the dashboard now appears only when your account is allowed to create a business.
+
 ## [1.103.0] - 17 november 2026
 
 - Sharing a link to the web version on Facebook, WhatsApp, Telegram or LinkedIn now shows the app image, title and description.
