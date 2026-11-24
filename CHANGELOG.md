@@ -1,6 +1,8 @@
 ## [1.104] - 24 november 2026
 
 - The Request Business button on the dashboard now appears only when your account is allowed to create a business.
+- On the web, pressing the refresh button on the Updates screen no longer sends a duplicate request to the server before the page reloads.
+- The release cards on the Updates screen no longer stretch taller than their content or leave empty space below the share button on the web.
 
 ## [1.103.0] - 17 november 2026
 
