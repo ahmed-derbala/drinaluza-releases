@@ -1,3 +1,9 @@
+## [1.105] - 25 november 2026
+
+- Requesting a new business now asks you to choose the business type from the available business categories.
+- The category picker when creating a product now shows only seafood product categories, so business categories no longer appear there.
+- Category names now appear in your chosen language in the category picker.
+
 ## [1.104] - 24 november 2026
 
 - The Request Business button on the dashboard now appears only when your account is allowed to create a business.
